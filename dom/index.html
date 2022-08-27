@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom - getElementById</title>
+</head>
+<body>
+    <!--Acessando um ID-->
+   
+    <div id="cidades">Belo horizonte</div>
+    <div id="estados">São Paulo</div>
+
+
+    <script>
+        console.log(
+         document.getElementById("time-grande").innerHTML 
+        )
+        
+
+    </script>
+
+    <!--Criando Classes com div-->
+    
+    <div class="materias"> Matematica</div>
+    <div class="musicas">Sertanejo</div>
+    <div class="cores"> vermelho</div>
+
+    <script>  /*Acessando a class*/
+        console.log(
+            document.getElementsByClassName("cores")[1].innerHTML
+        )
+    </script>
+
+<h3>Acessando Tags e fazendo manipulação</h3>
+<br>
+<form></form>
+<button>Clique aqui</button>
+
+
+<div></div>
+<div></div>
+<div></div>
+
+
+<script>
+    console.log(
+        document.getElementsByTagName("button") [0].innerHTML
+    )
+</script>
+</body>
+</html>

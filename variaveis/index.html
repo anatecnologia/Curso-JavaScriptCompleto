@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis</title>
+    <style>
+        h1{
+            color: rgb(20, 16, 224);
+        }
+        p{
+            font-style: italic;
+        }
+        ul, li{
+            color: mediumblue;
+        }
+        body{
+            background-color: rgb(225, 166, 99);
+        }
+    </style>
+</head>
+<body>
+    <h1>Variaveis</h1>
+    <p>variaveis servem para armazenar valores.</p>
+    <ul>
+        <li>Escopo global</li>
+        <li>Escopo local</li>
+        <li>Constantes</li>
+    </ul>
+
+    <script>
+       /* var nomeCompleto = "Ana";       Declarando uma var
+        nomeCompleto = "Ana Carvalho"
+        console.log(nomeCompleto);*/
+
+
+
+      /*  var nome = "sara"    Escopo global
+        function testando(){
+            nome = "clara";     escopo local
+        }
+        testando();
+        console.log(nome);*/
+
+     function teste(){
+        let name = "carvalho"; /* let especifica que a var é local*/
+     }
+     teste();
+     console.log(name);
+
+
+     const nome = "AnaC";  /*declarando uma const*/
+     nome = "Ana"
+     console.log(nome);
+    </script>
+    
+</body>
+</html>
